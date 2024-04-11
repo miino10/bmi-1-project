@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LBM Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <h2>LBM and BMI Calculator</h2>
+
+      <div class="container">
+        <div class="header">
+          <h1>Welcome our Project</h1>
+          <h3>Created by</h3>
+          <p>ABDIFATAH DAHIR</p>
+          <p>MOHAMED YASIN</p>
+          <p>MOHAMED YASIR</p>
+        </div>
+
+        <form class="" action="handle_form.php" method="post">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" />
+          </div>
+          <div class="form-group">
+            <label for="weight">Weight (in kg):</label>
+            <input type="number" step="any" id="weight" name="weight" />
+          </div>
+          <div class="form-group">
+            <label for="height">Height (in m):</label>
+            <input type="number" step="any" id="height" name="height" />
+          </div>
+          <div class="form-group">
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" />
+          </div>
+          <div class="form-group">
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male" />
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female" />
+            <label for="female">Female</label>
+          </div>
+          <input type="submit" class="btn" value="Calculate" />
+        </form>
+      </div>
+      <footer>
+        <p>&copy; 2024 LBM and BMI Calculator</p>
+      </footer>
+    </div>
+  </body>
+</html>
